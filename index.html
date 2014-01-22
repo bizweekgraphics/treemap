@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+
 <style>
 
 body {
@@ -25,13 +26,13 @@ form {
 }
 
 </style>
-<form>
 
-</form>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
-var margin = {top: 40, right: 10, bottom: 10, left: 10},
+//this is Mike Bostock's original treemap layout, good description here: https://github.com/mbostock/d3/wiki/Treemap-Layout
+
+var margin = {top: 40, right: 10, bottom: 10, left: 10}, 
     width = 960 - margin.left - margin.right,
     height = 960 - margin.top - margin.bottom;
 
