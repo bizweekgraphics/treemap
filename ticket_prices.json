@@ -1,8 +1,5 @@
-{
- "name": "tickets",
- "children": [
+
   {
-   "name": "events",
    "children": [
   {
      "name": "NFL",
@@ -97,5 +94,3 @@
     }
    ]
   }
- ]
-}

@@ -53,7 +53,7 @@ var div = d3.select("svg").append("g") //changed from previous index to get svgs
     .attr("left", margin.left + "px")
     .attr("top", margin.top + "px");
 
-d3.json("ticket_prices.json", function(error, root) {
+d3.json("ticket_prices.json", function(error, root) { //root is the json 
   var node = div.datum(root).selectAll(".node")
       .data(treemap.nodes)
       .enter().append("rect")
